@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小微企业银行融资产品速配指南</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Microsoft YaHei', sans-serif; }
+        body { background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); padding: 20px; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; }
+        .header { background: linear-gradient(to right, #0f4c75, #3282b8); color: white; padding: 30px 40px; text-align: center; }
+        .header h1 { font-size: 36px; margin-bottom: 10px; letter-spacing: 1px; }
+        .header p { font-size: 18px; opacity: 0.9; }
+        .subtitle { background: #bbe1fa; padding: 15px; text-align: center; font-weight: bold; color: #0f4c75; font-size: 18px; }
+        .content { padding: 30px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; margin: 30px 0; }
+        .product-card { border: 2px solid #ddd; border-radius: 12px; padding: 25px; transition: all 0.3s; background: white; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); border-color: #3282b8; }
+        .product-card.featured { border: 3px solid #ff9800; background: #fff8e1; }
+        .product-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .product-title { font-size: 20px; color: #0f4c75; font-weight: bold; }
+        .product-badge { background: #ff5722; color: white; padding: 5px 12px; border-radius: 20px; font-size: 14px; }
+        .product-badge.hot { background: #ff5722; }
+        .product-badge.new { background: #4caf50; }
+        .product-badge.fast { background: #2196f3; }
+        .product-details { margin: 15px 0; }
+        .detail-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dashed #eee; }
+        .detail-label { color: #666; }
+        .detail-value { font-weight: bold; color: #333; }
+        .detail-value.highlight { color: #ff5722; }
+        .product-match { background: #e8f5e9; padding: 10px 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #4caf50; }
+        .product-match h4 { color: #2e7d32; margin-bottom: 5px; }
+        .comparison-table { width: 100%; border-collapse: collapse; margin: 30px 0; background: white; }
+        .comparison-table th { background: #0f4c75; color: white; padding: 15px; text-align: left; }
+        .comparison-table td { padding: 12px 15px; border-bottom: 1px solid #eee; }
+        .comparison-table tr:nth-child(even) { background: #f9f9f9; }
+        .comparison-table .best { background: #e8f5e9 !important; font-weight: bold; }
+        .flow-section { background: #f0f7ff; padding: 25px; border-radius: 12px; margin: 30px 0; }
+        .flow-steps { display: flex; justify-content: space-between; margin-top: 20px; }
+        .step { text-align: center; flex: 1; padding: 15px; }
+        .step-number { width: 40px; height: 40px; background: #3282b8; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-weight: bold; }
+        .step-title { font-weight: bold; color: #0f4c75; margin-bottom: 5px; }
+        .action-box { background: linear-gradient(to right, #ff9800, #ff5722); color: white; padding: 25px; border-radius: 10px; text-align: center; margin: 30px 0; }
+        .action-box h3 { margin-bottom: 15px; }
+        .btn-action { background: white; color: #ff5722; border: none; padding: 12px 30px; font-size: 16px; border-radius: 50px; cursor: pointer; font-weight: bold; transition: all 0.3s; }
+        .btn-action:hover { background: #fff8e1; transform: scale(1.05); }
+        .footer { text-align: center; padding: 20px; background: #f5f5f5; color: #666; font-size: 14px; }
+        @media (max-width: 768px) {
+            .product-grid { grid-template-columns: 1fr; }
+            .flow-steps { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>小微企业银行融资产品"速配指南"</h1>
+            <p>云南地区2025年最新银行小微企业融资产品对比 · 一张图看懂所有选择</p>
+        </div>
+        
+        <div class="subtitle">⏱️ 5分钟找到最适合您企业的贷款产品 · 告别选择困难</div>
+        
+        <div class="content">
+            <h2 style="color: #0f4c75; margin-bottom: 20px;">🏦 主流银行小微企业融资产品对比</h2>
+            
+            <div class="product-grid">
+                <!-- 产品1 -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-title">工商银行 - "税务贷"</div>
+                        <div class="product-badge hot">热门推荐</div>
+                    </div>
+                    <div class="product-details">
+                        <div class="detail-item">
+                            <span class="detail-label">年化利率</span>
+                            <span class="detail-value highlight">3.45% - 4.20%</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">最高额度</span>
+                            <span class="detail-value">300万元</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">贷款期限</span>
+                            <span class="detail-value">1-3年</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">准入要求</span>
+                            <span class="detail-value">纳税等级A/B级，正常纳税2年以上</span>
+                        </div>
+                    </div>
+                    <div class="product-match">
+                        <h4>✓ 最适合这类企业：</h4>
+                        <p>纳税规范、财务健全的科技型、制造业企业</p>
+                    </div>
+                </div>
+                
+                <!-- 产品2 -->
+                <div class="product-card featured">
+                    <div class="product-header">
+                        <div class="product-title">建设银行 - "云税贷"</div>
+                        <div class="product-badge new">审批最快</div>
+                    </div>
+                    <div class="product-details">
+                        <div class="detail-item">
+                            <span class="detail-label">年化利率</span>
+                            <span class="detail-value highlight">3.20% - 3.85%</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">最高额度</span>
+                            <span class="detail-value">500万元</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">贷款期限</span>
+                            <span class="detail-value">1年（可循环）</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">准入要求</span>
+                            <span class="detail-value">年纳税1万元以上，无严重违法记录</span>
+                        </div>
+                    </div>
+                    <div class="product-match">
+                        <h4>✓ 最适合这类企业：</h4>
+                        <p>急需短期周转资金、纳税记录良好的各类小微企业</p>
+                    </div>
+                </div>
+                
+                <!-- 产品3 -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-title">云南农信 - "流水贷"</div>
+                        <div class="product-badge fast">门槛最低</div>
+                    </div>
+                    <div class="product-details">
+                        <div class="detail-item">
+                            <span class="detail-label">年化利率</span>
+                            <span class="detail-value highlight">4.35% - 5.50%</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">最高额度</span>
+                            <span class="detail-value">100万元</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">贷款期限</span>
+                            <span class="detail-value">6-36个月</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">准入要求</span>
+                            <span class="detail-value">对公流水稳定，持续经营1年以上</span>
+                        </div>
+                    </div>
+                    <div class="product-match">
+                        <h4>✓ 最适合这类企业：</h4>
+                        <p>流水充足但纳税较少的小微企业、个体工商户</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 style="color: #0f4c75; margin: 40px 0 20px;">📊 五大银行核心产品详细对比表</h2>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>银行/产品</th>
+                        <th>利率范围</th>
+                        <th>最高额度</th>
+                        <th>审批时间</th>
+                        <th>关键准入条件</th>
+                        <th>适合企业类型</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>工商银行"税务贷"</td>
+                        <td class="highlight">3.45%-4.20%</td>
+                        <td>300万</td>
+                        <td>3-5工作日</td>
+                        <td>纳税A/B级，正常纳税2年+</td>
+                        <td>科技企业、制造业</td>
+                    </tr>
+                    <tr class="best">
+                        <td>建设银行"云税贷"</td>
+                        <td class="highlight">3.20%-3.85%</td>
+                        <td>500万</td>
+                        <td>1-3工作日</td>
+                        <td>年纳税1万+，信用良好</td>
+                        <td>各类急需资金企业</td>
+                    </tr>
+                    <tr>
+                        <td>农业银行"抵押快贷"</td>
+                        <td>3.65%-4.50%</td>
+                        <td>1000万</td>
+                        <td>5-10工作日</td>
+                        <td>有房产抵押，经营正常</td>
+                        <td>有固定资产企业</td>
+                    </tr>
+                    <tr>
+                        <td>中国银行"科创贷"</td>
+                        <td>3.10%-3.80%</td>
+                        <td>800万</td>
+                        <td>5-8工作日</td>
+                        <td>高新技术企业，有专利</td>
+                        <td>科技型中小企业</td>
+                    </tr>
+                    <tr>
+                        <td>云南农信"流水贷"</td>
+                        <td>4.35%-5.50%</td>
+                        <td>100万</td>
+                        <td>2-4工作日</td>
+                        <td>对公流水稳定1年+</td>
+                        <td>小微企业、个体户</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="flow-section">
+                <h3 style="color: #0f4c75;">🔄 小微企业融资"四步速配"流程</h3>
+                <div class="flow-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-title">企业自诊</div>
+                        <p>确认纳税等级、年流水、经营年限等核心指标</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-title">产品匹配</div>
+                        <p>根据企业资质匹配3-5个最合适银行产品</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-title">材料准备</div>
+                        <p>准备基础证照、财务报表、纳税证明等材料</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-title">申请提款</div>
+                        <p>提交申请，等待审批，资金到账</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-box">
+                <h3>🔍 不确定哪款产品最适合您？</h3>
+                <p>专业融资顾问可为您提供1对1企业资质诊断，并匹配最合适的3个银行产品方案</p>
+                <button class="btn-action" onclick="window.location.href='#contact'">免费获取企业融资诊断报告</button>
+            </div>
+            
+            <div style="background: #fff3e0; padding: 20px; border-radius: 10px; margin-top: 30px;">
+                <h4 style="color: #e65100;">💡 2025年云南小微企业融资政策利好：</h4>
+                <ul style="padding-left: 20px; margin-top: 10px;">
+                    <li>单户授信1000万以下小微企业贷款利息收入免征增值税</li>
+                    <li>科技型中小企业研发费用加计扣除比例提高至100%</li>
+                    <li>省级财政对小微企业首次贷款给予1%贴息补助</li>
+                    <li>简化贷款审批流程，平均审批时间缩短30%</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 云南小微企业融资服务中心 | 产品信息更新至2025年1月，具体以各银行最新政策为准</p>
+            <p id="contact">添加专业融资顾问微信：<strong>YRws1001</strong> | 电话：15687681996</p>
+        </div>
+    </div>
+</body>
+</html>
